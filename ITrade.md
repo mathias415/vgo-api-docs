@@ -1,16 +1,16 @@
 ## ITrade
 
 Endpoints which allow users to trade items between VGo accounts via their On-Site Inventories.
-- [ITrade/AcceptOffer](ITrade/AcceptOffer)
-- [ITrade/CancelOffer](ITrade/CancelOffer)
-- [ITrade/GetOffer](ITrade/GetOffer)
-- [ITrade/GetOffers](ITrade/GetOffers)
-- [ITrade/GetTradeUrl](ITrade/GetTradeUrl)
-- [ITrade/GetUserInventory](ITrade/GetUserInventory)
-- [ITrade/GetUserInventoryFromSteamId](ITrade/GetUserInventoryFromSteamId)
-- [ITrade/RegenerateTradeUrl](ITrade/RegenerateTradeUrl)
-- [ITrade/SendOffer](ITrade/SendOffer)
-- [ITrade/SendOfferToSteamId](ITrade/SendOfferToSteamId)
+- [ITrade/AcceptOffer](ITrade/AcceptOffer.md)
+- [ITrade/CancelOffer](ITrade/CancelOffer.md)
+- [ITrade/GetOffer](ITrade/GetOffer.md)
+- [ITrade/GetOffers](ITrade/GetOffers.md)
+- [ITrade/GetTradeUrl](ITrade/GetTradeUrl.md)
+- [ITrade/GetUserInventory](ITrade/GetUserInventory.md)
+- [ITrade/GetUserInventoryFromSteamId](ITrade/GetUserInventoryFromSteamId.md)
+- [ITrade/RegenerateTradeUrl](ITrade/RegenerateTradeUrl.md)
+- [ITrade/SendOffer](ITrade/SendOffer.md)
+- [ITrade/SendOfferToSteamId](ITrade/SendOfferToSteamId.md)
 
 
 ### Offer states constants:

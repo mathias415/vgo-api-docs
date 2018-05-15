@@ -1,16 +1,16 @@
 ## IUser
 
-- [IUser/GenerateApiKey](IUser/GenerateApiKey)
-- [IUser/GetApiKey](IUser/GetApiKey)
-- [IUser/GetContractTokenFromSteamId](IUser/GetContractTokenFromSteamId)
-- [IUser/GetInventory](IUser/GetInventory)
-- [IUser/GetProfile](IUser/GetProfile)
-- [IUser/RegenerateApiKey](IUser/RegenerateApiKey)
-- [IUser/RevokeApiKey](IUser/RevokeApiKey)
-- [IUser/SendEmailCode](IUser/SendEmailCode)
-- [IUser/UpdateProfile](IUser/UpdateProfile)
-- [IUser/UpdateSMSPhoneNumber](IUser/UpdateSMSPhoneNumber)
-- [IUser/VerifyEmailCode](IUser/VerifyEmailCode)
-- [IUser/VerifyPhone](IUser/VerifyPhone)
+- [IUser/GenerateApiKey](IUser/GenerateApiKey.md)
+- [IUser/GetApiKey](IUser/GetApiKey.md)
+- [IUser/GetContractTokenFromSteamId](IUser/GetContractTokenFromSteamId.md)
+- [IUser/GetInventory](IUser/GetInventory.md)
+- [IUser/GetProfile](IUser/GetProfile.md)
+- [IUser/RegenerateApiKey](IUser/RegenerateApiKey.md)
+- [IUser/RevokeApiKey](IUser/RevokeApiKey.md)
+- [IUser/SendEmailCode](IUser/SendEmailCode.md)
+- [IUser/UpdateProfile](IUser/UpdateProfile.md)
+- [IUser/UpdateSMSPhoneNumber](IUser/UpdateSMSPhoneNumber.md)
+- [IUser/VerifyEmailCode](IUser/VerifyEmailCode.md)
+- [IUser/VerifyPhone](IUser/VerifyPhone.md)
 
 
