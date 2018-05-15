@@ -1,13 +1,12 @@
 # API Interfaces
 
-* [IAuth](IAuth)
-* [ICase](ICase) - all VGo keys and VGo cases stuff
-* [ICaseSite](ICaseSite) - All endpoints that a vcase website needs to use, except creating their initial user.
-* [IItem](IItem)
-* [ISecurity](ISecurity)
-* [ITest](ITest)
-* [ITrade](ITrade) - p2p trading
-* [IUser](IUser)
+* [IAuth](IAuth.md)
+* [ICase](ICase.md) - all VGo keys and VGo cases stuff
+* [ICaseSite](ICaseSite.md) - All endpoints that a vcase website needs to use, except creating their initial user.
+* [IItem](IItem.md)
+* [ITest](ITest.md)
+* [ITrade](ITrade.md) - p2p trading
+* [IUser](IUser.md)
 
 ## VGo Item Standard Output
 TBD

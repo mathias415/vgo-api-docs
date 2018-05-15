@@ -1,11 +1,11 @@
 - [IItem](#iitem)
-  * [Generate (v1)](#generate-v1.md)
-  * [GenerateKey (v1)](#generatekey-v1.md)
-  * [GetKeyCount (v1)](#getkeycount-v1.md)
-  * [GetWearTierMapping (v1)](#getweartiermapping-v1.md)
-  * [GetWearTierIndex (v1)](#getweartierindex-v1.md)
-  * [GetItems (v1)](#getitems-v1.md)
-  * [RedeemForEth (v1)](#redeemforeth-v1.md)
+  * [Generate (v1)](#generate-v1)
+  * [GenerateKey (v1)](#generatekey-v1)
+  * [GetKeyCount (v1)](#getkeycount-v1)
+  * [GetWearTierMapping (v1)](#getweartiermapping-v1)
+  * [GetWearTierIndex (v1)](#getweartierindex-v1)
+  * [GetItems (v1)](#getitems-v1)
+  * [RedeemForEth (v1)](#redeemforeth-v1)
 
 # IItem
 
