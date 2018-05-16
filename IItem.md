@@ -1,7 +1,6 @@
 - [IItem](#iitem)
   * [Generate (v1)](#generate-v1)
-  * [GenerateKey (v1)](#generatekey-v1)
-  * [GetKeyCount (v1)](#getkeycount-v1)
+  * [GenerateTestItem (v1)](#generatetestitem-v1)
   * [GetWearTierMapping (v1)](#getweartiermapping-v1)
   * [GetWearTierIndex (v1)](#getweartierindex-v1)
   * [GetItems (v1)](#getitems-v1)
@@ -35,6 +34,48 @@ wear | float | + | Wear float value
   }
 }
 ```
+
+
+## GenerateTestItem (v1)
+
+Only available on dev/staging environments.
+
+`POST http://api.vgo.test/IItem/GenerateTestItem/v1/`
+
+#### Input Descriptions
+
+Parameter | Type | Required   | Description
+--------- | -----| :--------: | -----------
+sku | int | - | Which item definition to generate.  If not provided, one will be randomly selected.
+wear | float | - | What wear value the item should have.  Range 0-1 inclusive.  If not provided, one will be randomly selected.
+pattern_index | int | - | What pattern index the item should have.  Range: 0-1000 inclusive.  If not provided, one will be randomly selected.
+
+#### Output Example
+```json
+{
+    "status": 1,
+    "time": 1526416984,
+    "response": {
+        "items": [
+            {
+                "id": 29,
+                "sku": 20,
+                "wear": 0.6879568,
+                "pattern_index": 864,
+                "preview_urls": null,
+                "eth_inspect": null,
+                "wear_tier": "Battle-Scarred",
+                "name": "AK-47 | Case Hardened",
+                "category": "Classified Rifle",
+                "color": "D2D2D2",
+                "image": "https://vgo.gg/img/item/sku+wear_tier",
+                "suggested_price": 1099
+            }
+        ]
+    }
+}
+```
+
 
 ## GetWearTierMapping (v1)
 
