@@ -1,5 +1,4 @@
 - [IItem](#iitem)
-  * [Generate (v1)](#generate-v1)
   * [GenerateTestItem (v1)](#generatetestitem-v1)
   * [GetWearTierMapping (v1)](#getweartiermapping-v1)
   * [GetWearTierIndex (v1)](#getweartierindex-v1)
@@ -9,31 +8,6 @@
 # IItem
 
 Interface used for VgoItem class
-
-## Generate (v1)
-
-`POST http://api.vgo.gg/IItem/Generate/v1/`
-
-#### Input Descriptions
-
-Parameter | Type | Required   | Description
---------- | -----| :--------: | -----------
-blockchain_tx | string | + | Blockchain transaction ID
-contract_token | string | + | User ID
-sku | int | + | SKU of item
-pattern_index | int | + |  Pattern index
-wear | float | + | Wear float value
-
-#### Output Example
-```json
-{  
-  "status":1,
-  "time":1525206480,
-  "response":{  
-    "item_id":25
-  }
-}
-```
 
 
 ## GenerateTestItem (v1)
