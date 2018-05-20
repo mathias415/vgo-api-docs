@@ -10,6 +10,7 @@ Parameter | Type | Required   | Description
 --------- | -----| :--------: | -----------
 steam_id | int |  <p_required>+</p_required> | Steam ID of user you want to send your trade offer to
 items | string | <p_required>+</p_required> | A comma-separated list of item ids you wish to include in trade offer. There should be both yours and recipients items. 100 maximum per each side.
+twofactor_code | string |  <p_required>+</p_required> | 2-factor authentication code
 
     
 #### Output
