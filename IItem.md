@@ -55,6 +55,8 @@ pattern_index | int | - | What pattern index the item should have.  Range: 0-100
 
 `GET http://api.vgo.gg/IItem/GetWearTierMapping/v1?key=z`
 
+#### The output for this endpoint will always be the same, the values will never change.
+
 #### Input Descriptions
 
 Parameter | Type | Required   | Description
