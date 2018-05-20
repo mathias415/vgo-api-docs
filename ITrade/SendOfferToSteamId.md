@@ -4,12 +4,6 @@
 
 `POST http://api.vgo.gg/ITrade/SendOfferToSteamId/v1/`
 
-#### Requirements
-- Accessible with API key authentication only (not available with Cookie)
-- API key's flag should have 5th bit on (add 32 to yours if you haven't done it before)
-
-**If the above requirements are not met, then returns 404 error** (Legacy :))
-
 #### Input
 
 Parameter | Type | Required   | Description
