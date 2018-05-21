@@ -3,6 +3,7 @@
   * [GetWearTierMapping (v1)](#getweartiermapping-v1)
   * [GetWearTierIndex (v1)](#getweartierindex-v1)
   * [GetItems (v1)](#getitems-v1)
+  * [GetItemsById (v1)](#getitemsbyid-v1)
   * [RedeemForEth (v1)](#redeemforeth-v1)
 
 # IItem
@@ -262,5 +263,50 @@ twofactor_code | string | x | 2FA code
     "eth_txn_id": "0xa4daad3e2951522c830ea57f6584f6d629ecb24424a6a693980097dc37536e0b",
     "eth_sent": "0.02103940100000"
   }
+}
+```
+
+
+## GetItemsById (v1)
+
+
+#### Input Descriptions
+
+Parameter | Type | Required   | Description
+--------- | -----| :--------: | -----------
+item_id| int-csv | - | item id filter, separated with comma
+
+#### Output Example
+
+```json
+{
+    "status": 1,
+    "time": 1526930137,
+    "response": {
+        "items": [
+            {
+                "id": "61",
+                "sku": "20",
+                "wear": "0.88152909278869630",
+                "pattern_index": "596",
+                "fast_field_inspection_id": null,
+                "full_field_inspection_id": null,
+                "eth_txn": null,
+                "create_time": "1526913466",
+                "flags": "0"
+            },
+            {
+                "id": "62",
+                "sku": "20",
+                "wear": "0.94740200042724610",
+                "pattern_index": "42",
+                "fast_field_inspection_id": null,
+                "full_field_inspection_id": null,
+                "eth_txn": null,
+                "create_time": "1526913467",
+                "flags": "0"
+            }
+        ]
+    }
 }
 ```
